@@ -2,16 +2,16 @@
  "cells": [
   {
    "cell_type": "code",
-   "execution_count": 15,
+   "execution_count": 17,
    "metadata": {},
    "outputs": [
     {
      "name": "stdout",
      "output_type": "stream",
      "text": [
-      "Enter 1st phrase:Насколько проще было бы писать программы, если бы не заказчики\n",
-      "Enter 2nd phrase:640Кб должно хватить для любых задач. Билл Гейтс (по легенде)\n",
-      "1st phrase is longer than 2nd\n"
+      "Enter 1st phrase:tadada\n",
+      "Enter 2nd phrase:tadadadada\n",
+      "2nd phrase is longer than 1st\n"
      ]
     }
    ],
@@ -22,10 +22,13 @@
     "y = len(user_input2)\n",
     "if x > y:\n",
     "    print('1st phrase is longer than 2nd')\n",
-    "else:\n",
+    "elif x < y:\n",
     "    print('2nd phrase is longer than 1st')\n",
+    "else:\n",
+    "    print('phrases are equal')\n",
     "\n",
-    "     "
+    "     \n",
+    "        "
    ]
   },
   {
